@@ -1,0 +1,75 @@
+.sidebar {
+  min-height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f0f4f9;
+  padding: 25px 15px;
+  color: #282828;
+  font-weight: 400;
+}
+.sidebar img {
+  width: 20px;
+}
+.sidebar .top {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.sidebar .menu {
+  display: block;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+.sidebar .new-chat {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  gap: 15px;
+  background-color: #d4dae19a;
+  padding: 6px 12px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.sidebar .new-chat:hover {
+  background-color: #d4dae1;
+}
+.sidebar .recent {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .recent .title {
+  margin-left: 15px;
+}
+.sidebar .recent .recent-entry {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  max-height: fit-content;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.sidebar-items:hover {
+  background-color: #e2e6eb;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bottom .help,
+.bottom .activity,
+.bottom .settings {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
